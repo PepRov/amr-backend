@@ -14,7 +14,7 @@ const pathogens = [
       { "region": "North America (Emerging)", "latitude": 40.71, "longitude": -74.00, "intensity": 0.8 },
       { "region": "Southeast Asia", "latitude": 13.75, "longitude": 100.51, "intensity": 0.85 }
     ],
-    "antibiotics": ["Ceftazidime-avibactam", "Meropenem-vaborbactam", "Eravacycline", "Aztreonam", "Colistin"]
+    "effectiveAntibiotics": ["Ceftazidime-avibactam", "Meropenem-vaborbactam", "Eravacycline", "Aztreonam", "Colistin"]
   },
   {
     "name": "CRAB (Acinetobacter baumannii)",
@@ -27,7 +27,7 @@ const pathogens = [
       { "region": "Latin America", "latitude": -23.55, "longitude": -46.63, "intensity": 0.75 },
       { "region": "Southern Europe", "latitude": 41.90, "longitude": 12.49, "intensity": 0.7 }
     ],
-    "antibiotics": ["Cefiderocol", "Sulbactam-durlobactam", "Minocycline", "Polymyxin B", "Tigecycline"]
+    "effectiveAntibiotics": ["Cefiderocol", "Sulbactam-durlobactam", "Minocycline", "Polymyxin B", "Tigecycline"]
   },
   {
     "name": "Neisseria gonorrhoeae",
@@ -40,7 +40,7 @@ const pathogens = [
       { "region": "United Kingdom", "latitude": 51.50, "longitude": -0.12, "intensity": 0.65 },
       { "region": "Sub-Saharan Africa", "latitude": -1.29, "longitude": 36.82, "intensity": 0.8 }
     ],
-    "antibiotics": ["Ceftriaxone", "Zoliflodacin", "Gepotidacin", "Azithromycin", "Spectinomycin"]
+    "effectiveAntibiotics": ["Ceftriaxone", "Zoliflodacin", "Gepotidacin", "Azithromycin", "Spectinomycin"]
   },
   {
     "name": "MRSA (S. aureus)",
@@ -52,7 +52,7 @@ const pathogens = [
       { "region": "Western Europe", "latitude": 48.85, "longitude": 2.35, "intensity": 0.6 },
       { "region": "South America", "latitude": -34.60, "longitude": -58.38, "intensity": 0.7 }
     ],
-    "antibiotics": ["Vancomycin", "Daptomycin", "Linezolid", "Ceftaroline", "Dalbavancin"]
+    "effectiveAntibiotics": ["Vancomycin", "Daptomycin", "Linezolid", "Ceftaroline", "Dalbavancin"]
   },
   {
     "name": "M. tuberculosis (RR-TB)",
@@ -65,7 +65,7 @@ const pathogens = [
       { "region": "Southeast Asia", "latitude": 14.59, "longitude": 120.98, "intensity": 0.85 },
       { "region": "Southern Africa", "latitude": -26.20, "longitude": 28.04, "intensity": 0.8 }
     ],
-    "antibiotics": ["Bedaquiline", "Pretomanid", "Linezolid", "Moxifloxacin", "Delamanid"]
+    "effectiveAntibiotics": ["Bedaquiline", "Pretomanid", "Linezolid", "Moxifloxacin", "Delamanid"]
   },
   {
     "name": "XDR Salmonella Typhi",
@@ -77,7 +77,7 @@ const pathogens = [
       { "region": "South Asia (Karachi)", "latitude": 24.86, "longitude": 67.00, "intensity": 0.95 },
       { "region": "East Africa", "latitude": -1.28, "longitude": 36.82, "intensity": 0.75 }
     ],
-    "antibiotics": ["Azithromycin", "Carbapenem", "Tigecycline", "Cefixime"]
+    "effectiveAntibiotics": ["Azithromycin", "Carbapenem", "Tigecycline", "Cefixime"]
   }
 ];
 
