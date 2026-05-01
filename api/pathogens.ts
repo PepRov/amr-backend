@@ -4,25 +4,50 @@ export default function (request: VercelRequest, response: VercelResponse) {
   // This is your global landscape data
 const pathogens = [
   {
-    "name": "A. baumannii",
+    "name": "Carbapenem-resistant Enterobacterales (CRE)",
     "tier": "CRITICAL",
-    "status": "Rising",
-    "description": "Highly resistant in clinical settings.",
-    "detailMarkdown": "# Acinetobacter baumannii\nDetailed clinical analysis...",
+    "status": "Spreading",
+    "description": "Includes NDM-CRE, which has seen a 460% increase in some regions.",
+    "detailMarkdown": "### 2025 CDC/WHO Alert\nSignificant rise in NDM-producing strains (New Delhi metallo-β-lactamase). These are resistant to nearly all available antibiotics, making treatment selection extremely complex. Surveillance is prioritized for bloodstream and urinary tract infections.",
     "hotspots": [
-      { "region": "North Africa", "latitude": 30.04, "longitude": 31.23, "intensity": 0.8 },
-      { "region": "Southeast Asia", "latitude": 13.75, "longitude": 100.51, "intensity": 0.9 }
+      { "region": "South Asia (Origin)", "latitude": 28.61, "longitude": 77.20, "intensity": 0.95 },
+      { "region": "North America (Emerging)", "latitude": 40.71, "longitude": -74.00, "intensity": 0.8 },
+      { "region": "Southeast Asia", "latitude": 13.75, "longitude": 100.51, "intensity": 0.85 }
     ]
   },
   {
-    "name": "S. aureus (MRSA)",
+    "name": "CRAB (Acinetobacter baumannii)",
+    "tier": "CRITICAL",
+    "status": "High Risk",
+    "description": "Carbapenem-resistant strains; major hospital-acquired threat.",
+    "detailMarkdown": "### Environmental Persistence\nCRAB survives for weeks on clinical surfaces. The 2024 BPPL update emphasizes its role in ventilator-associated pneumonia and healthcare-linked outbreaks in low-resource settings.",
+    "hotspots": [
+      { "region": "Eastern Mediterranean", "latitude": 30.04, "longitude": 31.23, "intensity": 0.9 },
+      { "region": "Latin America", "latitude": -23.55, "longitude": -46.63, "intensity": 0.75 },
+      { "region": "Southern Europe", "latitude": 41.90, "longitude": 12.49, "intensity": 0.7 }
+    ]
+  },
+  {
+    "name": "Neisseria gonorrhoeae",
+    "tier": "HIGH",
+    "status": "Monitoring",
+    "description": "Third-generation cephalosporin and fluoroquinolone-resistant.",
+    "detailMarkdown": "### Global Surveillance\nIncreasing resistance to ceftriaxone (the last line of defense). GLASS reports indicate high prevalence in urban centers and regions with high international travel volumes.",
+    "hotspots": [
+      { "region": "Western Pacific", "latitude": 35.67, "longitude": 139.65, "intensity": 0.85 },
+      { "region": "United Kingdom", "latitude": 51.50, "longitude": -0.12, "intensity": 0.65 },
+      { "region": "Sub-Saharan Africa", "latitude": -1.29, "longitude": 36.82, "intensity": 0.8 }
+    ]
+  },
+  {
+    "name": "MRSA (S. aureus)",
     "tier": "HIGH",
     "status": "Stable",
-    "description": "Common community-acquired resistance.",
-    "detailMarkdown": "# MRSA\nDetailed community impact...",
+    "description": "Methicillin-resistant Staphylococcus aureus.",
+    "detailMarkdown": "### Community vs. Hospital\nWhile hospital-acquired MRSA is stabilizing in some high-income countries due to better hygiene, community-acquired MRSA (CA-MRSA) remains a significant global burden.",
     "hotspots": [
-      { "region": "North America", "latitude": 40.71, "longitude": -74.00, "intensity": 0.6 },
-      { "region": "Western Europe", "latitude": 48.85, "longitude": 2.35, "intensity": 0.5 }
+      { "region": "Western Europe", "latitude": 48.85, "longitude": 2.35, "intensity": 0.6 },
+      { "region": "South America", "latitude": -34.60, "longitude": -58.38, "intensity": 0.7 }
     ]
   }
 ];
