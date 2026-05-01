@@ -28,5 +28,5 @@ const pathogens = [
 ];
 
   // Set the response to JSON format
-  response.status(200).json(data);
+  response.status(200).json(pathogens);
 }
