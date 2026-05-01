@@ -49,6 +49,29 @@ const pathogens = [
       { "region": "Western Europe", "latitude": 48.85, "longitude": 2.35, "intensity": 0.6 },
       { "region": "South America", "latitude": -34.60, "longitude": -58.38, "intensity": 0.7 }
     ]
+  },
+  {
+    "name": "M. tuberculosis (RR-TB)",
+    "tier": "CRITICAL",
+    "status": "High Burden",
+    "description": "Rifampicin-resistant Tuberculosis; top global AMR threat.",
+    "detailMarkdown": "### 2026 Global Update\nTB remains the only AMR pathogen with its own dedicated global surveillance system. Resistance to Rifampicin is a surrogate marker for Multidrug-Resistant TB (MDR-TB), requiring long-term, toxic, and expensive treatments.",
+    "hotspots": [
+      { "region": "Eastern Europe / Central Asia", "latitude": 55.75, "longitude": 37.61, "intensity": 0.9 },
+      { "region": "Southeast Asia", "latitude": 14.59, "longitude": 120.98, "intensity": 0.85 },
+      { "region": "Southern Africa", "latitude": -26.20, "longitude": 28.04, "intensity": 0.8 }
+    ]
+  },
+  {
+    "name": "XDR Salmonella Typhi",
+    "tier": "HIGH",
+    "status": "Outbreak Alert",
+    "description": "Extensively drug-resistant Typhoid fever.",
+    "detailMarkdown": "### 2025-2026 Surveillance\nXDR Typhoid is now endemic in parts of Pakistan and is increasingly being exported via international travel. It is resistant to all first-line antibiotics, including ciprofloxacin and ceftriaxone.",
+    "hotspots": [
+      { "region": "South Asia (Karachi)", "latitude": 24.86, "longitude": 67.00, "intensity": 0.95 },
+      { "region": "East Africa", "latitude": -1.28, "longitude": 36.82, "intensity": 0.75 }
+    ]
   }
 ];
 
