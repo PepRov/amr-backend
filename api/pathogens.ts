@@ -11,7 +11,7 @@ const pathogens = [
     "detailMarkdown": "# Acinetobacter baumannii\nDetailed clinical analysis...",
     "hotspots": [
       { "region": "North Africa", "latitude": 30.04, "longitude": 31.23, "intensity": 0.8 },
-      { "region": "Southeast Asia", "latitude": 13.75, "longitude": 100.51, "intensity": 0.9 }
+      //{ "region": "Southeast Asia", "latitude": 13.75, "longitude": 100.51, "intensity": 0.9 }
     ]
   },
   {
