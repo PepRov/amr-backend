@@ -11,8 +11,8 @@ const pathogens = [
     "detailMarkdown": "### 2025 CDC/WHO Alert\nSignificant rise in NDM-producing strains (New Delhi metallo-β-lactamase). These are resistant to nearly all available antibiotics, making treatment selection extremely complex.",
     "hotspots": [
       { "region": "South Asia (Origin)", "latitude": 28.61, "longitude": 77.20, "intensity": 0.95 },
-      { "region": "North America (Emerging)", "latitude": 40.71, "longitude": -74.00, "intensity": 0.8 },
-      { "region": "Southeast Asia", "latitude": 13.75, "longitude": 100.51, "intensity": 0.85 }
+      //{ "region": "North America (Emerging)", "latitude": 40.71, "longitude": -74.00, "intensity": 0.8 },
+      //{ "region": "Southeast Asia", "latitude": 13.75, "longitude": 100.51, "intensity": 0.85 }
     ],
     "effectiveAntibiotics": ["Ceftazidime-avibactam", "Meropenem-vaborbactam", "Eravacycline", "Aztreonam", "Colistimethate sodium"]
   },
