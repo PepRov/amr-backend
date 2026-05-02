@@ -14,7 +14,7 @@ const pathogens = [
       { "region": "North America (Emerging)", "latitude": 40.71, "longitude": -74.00, "intensity": 0.8 },
       { "region": "Southeast Asia", "latitude": 13.75, "longitude": 100.51, "intensity": 0.85 }
     ],
-    "effectiveAntibiotics": ["Ceftazidime-avibactam", "Meropenem-vaborbactam", "Eravacycline", "Aztreonam", "Colistin"]
+    "effectiveAntibiotics": ["Ceftazidime-avibactam", "Meropenem-vaborbactam", "Eravacycline", "Aztreonam", "Colistimethate sodium"]
   },
   {
     "name": "CRAB (Acinetobacter baumannii)",
@@ -77,7 +77,7 @@ const pathogens = [
       { "region": "South Asia (Karachi)", "latitude": 24.86, "longitude": 67.00, "intensity": 0.95 },
       { "region": "East Africa", "latitude": -1.28, "longitude": 36.82, "intensity": 0.75 }
     ],
-    "effectiveAntibiotics": ["Azithromycin", "Carbapenem", "Tigecycline", "Cefixime"]
+    "effectiveAntibiotics": ["Azithromycin", "Meropenem", "Tigecycline", "Cefixime"]
   }
 ];
 
