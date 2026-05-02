@@ -27,7 +27,7 @@ const pathogens = [
       { "region": "Latin America", "latitude": -23.55, "longitude": -46.63, "intensity": 0.75 },
       { "region": "Southern Europe", "latitude": 41.90, "longitude": 12.49, "intensity": 0.7 }
     ],
-    "effectiveAntibiotics": ["Cefiderocol", "Sulbactam-durlobactam", "Minocycline", "Polymyxin B", "Tigecycline"]
+    "effectiveAntibiotics": ["Cefiderocol", "Sulbactam-durlobactam", "Minocycline", "Polymyxin B2", "Tigecycline"]
   },
   {
     "name": "Neisseria gonorrhoeae",
