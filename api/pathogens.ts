@@ -33,8 +33,8 @@ const pathogens = [
       "Zoliflodacin",
       "Gepotidacin",
       "Ceftriaxone",
-      "Azithromycin",
-      "Spectinomycin"
+      "Spectinomycin",
+      "Azithromycin"
     ]
   },
   {
