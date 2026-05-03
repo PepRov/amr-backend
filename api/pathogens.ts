@@ -238,6 +238,74 @@ const pathogens = [
       "Tigecycline",
       "Quinupristin-dalfopristin"
     ]
+  },
+  {
+    "name": "Candida auris",
+    "tier": "CRITICAL",
+    "status": "Emerging Threat",
+    "description": "Multi-drug resistant fungal pathogen primarily associated with healthcare-acquired infections.",
+    "detailMarkdown": "### 2026 Fungal Surveillance\nCandida auris remains a high-priority threat due to its ability to persist on hospital surfaces and resist standard disinfectants. In 2026, the clinical focus has shifted toward the use of Rezafungin and the newly approved Ibrexafungerp, as resistance to traditional echinocandins continues to climb globally.",
+    "hotspots": [
+      {
+        "region": "Middle East",
+        "latitude": 24.71,
+        "longitude": 46.67,
+        "intensity": 0.85
+      },
+      {
+        "region": "South Asia",
+        "latitude": 23.68,
+        "longitude": 90.35,
+        "intensity": 0.9
+      },
+      {
+        "region": "North America",
+        "latitude": 40.71,
+        "longitude": -74.0,
+        "intensity": 0.75
+      }
+    ],
+    "effectiveAntibiotics": [
+      "Rezafungin",
+      "Ibrexafungerp",
+      "Micafungin",
+      "Caspofungin",
+      "Amphotericin B"
+    ]
+  },
+  {
+    "name": "S. pneumoniae (MDRSP)",
+    "tier": "HIGH",
+    "status": "Community Burden",
+    "description": "Multi-drug resistant Streptococcus pneumoniae causing pneumonia, meningitis, and sepsis.",
+    "detailMarkdown": "### 2025-2026 Vaccination Impact\nWhile PCV20 and higher-valency vaccines have reduced the burden of several strains, non-vaccine serotypes are emerging with high resistance to macrolides and penicillins. Research in 2026 emphasizes the use of Lefamulin and newer-generation cephalosporins for community-acquired pneumonia where traditional oral therapies fail.",
+    "hotspots": [
+      {
+        "region": "Sub-Saharan Africa",
+        "latitude": 9.08,
+        "longitude": 8.67,
+        "intensity": 0.8
+      },
+      {
+        "region": "Southeast Asia",
+        "latitude": 15.87,
+        "longitude": 100.99,
+        "intensity": 0.7
+      },
+      {
+        "region": "Western Europe",
+        "latitude": 52.52,
+        "longitude": 13.4,
+        "intensity": 0.55
+      }
+    ],
+    "effectiveAntibiotics": [
+      "Lefamulin",
+      "Linezolid",
+      "Ceftaroline",
+      "Vancomycin",
+      "Levofloxacin"
+    ]
   }
 ];
 
