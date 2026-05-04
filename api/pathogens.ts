@@ -38,7 +38,7 @@ const pathogens = [
     ]
   },
   {
-    "name": "MRSA (S. aureus)",
+    "name": "S. aureus (MRSA)",
     "tier": "HIGH",
     "status": "Stable",
     "description": "Methicillin-resistant Staphylococcus aureus.",
@@ -106,7 +106,7 @@ const pathogens = [
     ]
   },
   {
-    "name": "XDR Salmonella Typhi",
+    "name": "Salmonella Typhi (XDR)",
     "tier": "HIGH",
     "status": "Outbreak Alert",
     "description": "Extensively drug-resistant Typhoid fever.",
